@@ -134,7 +134,7 @@ li {
 	position: absolute;
 	bottom: -10px;
 	left: 0;
-	content: '...';
+	/*content: '...';*/
 	font-size: 48px;
 	letter-spacing: 10px;
 }
@@ -813,7 +813,7 @@ button.mfp-close:hover {
 }
 
 .skill-outer {
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 
 .skill-outer:last-child {
@@ -881,7 +881,7 @@ button.mfp-close:hover {
 	left: 50%;
 	-webkit-transform: translate(-50%,0);
 	transform: translate(-50%,0);
-	content: '...';
+	/*content: '...';*/
 	font-size: 48px;
 	letter-spacing: 10px;
 }
@@ -1025,7 +1025,7 @@ button.mfp-close:hover {
 	left: 50%;
 	-webkit-transform: translate(-50%,0);
 	transform: translate(-50%,0);
-	content: '...';
+	/*content: '...';*/
 	font-size: 48px;
 	letter-spacing: 10px;
 }

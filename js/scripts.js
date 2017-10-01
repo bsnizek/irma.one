@@ -242,14 +242,14 @@ $(function() {
   ===============================================*/
   var markerIcon = "images/marker.png";
   // Map Initial Location
-  var initLatitude = 51.513569; // <- Latitude here
-  var initLongitude = -0.123443; // <- Longitude here
+  var initLatitude = 57.014687; // <- Latitude here
+  var initLongitude =  9.974004; // <- Longitude here
   
   var map = new GMaps({
     el: '#map-canvas',
     lat: initLatitude,
     lng: initLongitude,
-    zoom: 16,
+    zoom: 12,
     scrollwheel: false
   });
   map.addMarker({
