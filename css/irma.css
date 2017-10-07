@@ -10,3 +10,41 @@
 #resume li {
     margin-bottom: 12px;
 }
+
+.centered-collapse {
+    height:30px;
+    position:relative;
+    cursor:pointer;
+}
+
+.centered-collapse div {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(0, -50%);
+    font-size:15px;
+}
+
+.centered-collapse div:hover {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(0, -50%);
+    font-weight: 800;
+}
+
+h3 {
+    margin: 0;
+    font: 800 14px 'Dosis', sans-serif;
+}
+
+.pub-title {
+    font-style: oblique;
+}
+
+.pub-title:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
